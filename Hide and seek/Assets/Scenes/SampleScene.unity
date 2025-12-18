@@ -931,7 +931,7 @@ Transform:
   m_GameObject: {fileID: 987286656}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.065, y: -0.0469, z: 0}
+  m_LocalPosition: {x: -0.0643, y: -0.0088, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -949,6 +949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9e7b084f27d5ab4e95a8c2159051d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Body: {fileID: 369958793}
+  Foot: {fileID: 533399446}
 --- !u!114 &987286659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -964,7 +966,7 @@ MonoBehaviour:
   m_Weight: 1
   m_Data:
     m_Root: {fileID: 1655985456}
-    m_Tip: {fileID: 533399447}
+    m_Tip: {fileID: 754000147}
     m_Target: {fileID: 987286657}
     m_ChainRotationWeight: 1
     m_TipRotationWeight: 1
